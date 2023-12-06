@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(89, 106, 118); /* Sky Blue */
+    color: #2F4F4F; /* Dark Slate Gray */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-section {
+    background-color: #5a7fa4; /* Dodger Blue */
+    color: #FFFFFF; /* White */
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid #1a0f57; /* Tan border color */
+    box-shadow: 0 0 10px rgba(70, 23, 210, 0.603);
+}
+
+.contact-title {
+    color: #020345; /* Tan title color */
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    border: 2px solid #FFFFFF; /* White */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item img {
+    margin-right: 10px;
+    max-width: 20px;
+}
+
+input {
+    border: 1px solid #98cfe9; /* Tan border color */
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Additional styles for links if needed */
+a {
+    color: #e6bd88; /* Tan link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    width: 500px;
+    margin: 50px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #31138b; /* Saddle Brown button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
